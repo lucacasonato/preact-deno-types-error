@@ -1,4 +1,3 @@
-import { render, preact } from "./deps.ts";
-const { h } = preact;
+import { h } from "./deps.ts";
 
-console.log(render(<h1>hello, world!</h1>));
+console.log(<h1>hello, world!</h1>);
